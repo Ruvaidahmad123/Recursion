@@ -15,8 +15,7 @@ public class ReverseusingRecursion
         int temp=arr[l];
         arr[l]=arr[r];
         arr[r]=temp;
-        reverse(arr,l+1,r-1);
-        return arr;
+        return reverse(arr,l+1,r-1);
     }
 	public static void main(String[] args) {
 	    int arr[]={2,3,5,7};
