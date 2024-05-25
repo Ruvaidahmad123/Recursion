@@ -9,7 +9,8 @@ Code, Compile, Run and Debug online from anywhere in world.
 public class PalindromeCheckusingRecursion
 { 
     public static boolean palindromecheck(String str,int l, int r){
-        if(l>r){   //also u can do till l<=n/2
+        if(l>r){   //also u can do till l<=n/2 
+		//u can also use one varibale l and n-l-1 for second instead of r
             return true;
         }
         if(str.charAt(l)!=str.charAt(r))
